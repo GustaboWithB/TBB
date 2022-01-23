@@ -1,0 +1,34 @@
+# 0x026e GustavDescriptipon ^
+A wandering swordsman unbeknownst[n]
+of his own fate or origins.[n]
+His willpower is matched only by his strength.[X]
+
+## MardukDescription
+Pupil of saint Donovan.[n]
+A young man with a never ending[n]
+thirst for knowledge.[X]
+
+## HawkDescription
+The bastard son of Marty and Ronan.[n]
+Inherited the best aspects of[n]
+both of his fathers.[X]
+
+## GrabielDescription
+Placeholder.[X]
+
+## MarcelloDescription ^
+A crafty young hunter with really bad luck.[n]
+Son of Apollyon, the legendary [0x93]Hunter King[0x94].[X]
+
+## DanteDescription ^
+A war veteran from the empire. Though, yet kind [n]
+and dependable. Once contested with the [n]
+Great General Cassius for his grand position.[X]
+
+# 0x0296 AbzabDescription
+One of Calcium's henchmen.[X]
+
+# 0x0295 CalciumDescription ^
+The leader of a bandit gang that[n]
+roams the REDACTED - REDACTED border.[n]
+His strength is matched only by his impatience.[X]

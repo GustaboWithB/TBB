@@ -1,0 +1,61 @@
+﻿//Made by Camtech075 of SerenesForest
+//Modified by Nintenlord
+
+#include EAstdlib.event
+
+EventPointerTable(7,Chapter1)
+
+ORG StartOffset
+Chapter1:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN PlayerUnits PlayerUnitsHard
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+END_MAIN
+ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno:
+0x00
+END_MAIN
+
+Tutorial:
+0x00
+END_MAIN
+
+TrapData:
+ENDTRAP
+
+ALIGN 4
+
+PlayerUnits:
+UNIT
+
+PlayerUnitsHard:
+UNIT
+
+BeginningScene:
+ENDA
+
+EndingScene:
+MoveToChapter(NextChapter)
+ENDA
+
+MESSAGE Events end at offset CURRENTOFFSET

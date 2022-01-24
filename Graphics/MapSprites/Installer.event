@@ -1,0 +1,29 @@
+
+
+#include "Internals.event"
+#include "GeneratedInstaller.event"
+
+
+//First free SMS is 107
+#define SwordsmanStanding 0x01 
+ 
+ 
+//First free MMS is 127 and will show up if you've expanded classes.
+#define SwordsmanMoving 0x00 
+ 
+
+
+//Copy from here 
+PUSH 
+ 
+SetSMS(SwordsmanStanding, 0, GustavMercStanding) 
+ 
+ 
+SetMMS(SwordsmanMoving, SwordsmanMoving_Data, DemonKingAP) 
+ 
+POP 
+//Copy until here   
+
+
+
+

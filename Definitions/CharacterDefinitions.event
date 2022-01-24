@@ -1,0 +1,7 @@
+#define Gustav 0x1
+#define Marduk 0x2
+#define Hawk 0x3
+#define Grabiel 0x4
+#define Marcello 0x5
+#define Dante 0x6
+#define Jose 0x7

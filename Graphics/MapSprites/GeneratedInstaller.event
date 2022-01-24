@@ -1,0 +1,47 @@
+//Generated - do not edit
+//Copy paste the /* */ section into your definitions if desired.
+//Please copy the SetSMS and SetMMS section to change SMS size and MMS AP. 
+ 
+ 
+ 
+/* 
+//First free SMS is 107
+#define SwordsmanStanding 0x01 
+ 
+ 
+//First free MMS is 127 and will show up if you've expanded classes.
+#define SwordsmanMoving 0x00 
+ 
+*/ 
+ 
+ 
+ 
+/* 
+//Copy from here 
+PUSH 
+ 
+SetSMS(SwordsmanStanding, 0, GustavMercStanding) 
+ 
+ 
+SetMMS(SwordsmanMoving, SwordsmanMoving_Data, DemonKingAP) 
+ 
+POP 
+//Copy until here 
+*/ 
+ 
+ 
+//SMS Image Data 
+ 
+ALIGN 4 
+GustavMercStanding: 
+#incbin "dmp/SwordsmanStanding.dmp" 
+ 
+ 
+ 
+ 
+//MMS Image Data 
+ 
+ALIGN 4 
+SwordsmanMoving_Data: 
+#incbin "dmp/SwordsmanMoving.dmp" 
+ 

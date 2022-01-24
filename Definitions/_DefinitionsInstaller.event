@@ -1,5 +1,0 @@
-#include "CharacterDefinitions.event"
-
-#include "AnimDefinitions.event"
-
-#include "ClassDefinitions.event"
